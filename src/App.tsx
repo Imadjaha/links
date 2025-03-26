@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FaGithub, FaInstagram, FaYoutube } from "react-icons/fa";
 import { LiaLinkedinIn } from "react-icons/lia";
 import { SiTiktok } from "react-icons/si";
@@ -7,7 +6,6 @@ import Profile, { SocialLink } from "./components/Profile";
 import Footer from "./components/Footer";
 import "./App.css";
 import coverImage from "./assets/codecrunchtikpic.png";
-import { ImInstagram } from "react-icons/im";
 
 const socials: SocialLink[] = [
   {
