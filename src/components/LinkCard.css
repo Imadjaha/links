@@ -1,0 +1,31 @@
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-card {
+  background-color: #fff;
+  color: #111;
+  padding: 0.6rem 1rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.link-card:hover {
+  transform: translateY(-4px) scale(1.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.link-card .icon {
+  font-size: 1.5rem;
+}
+
+.link-card .text {
+  flex-grow: 1;
+  font-weight: 500;
+}
